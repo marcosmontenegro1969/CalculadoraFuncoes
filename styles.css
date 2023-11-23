@@ -1,0 +1,40 @@
+.calculadora_Matematica {
+  max-width: 240px;
+  margin: 10% auto;
+  text-align: center;
+  background-image: url("./Imagem_Fundo.jpg");
+  background-size: cover;
+  border: 2px solid #21188b;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.calculadora_Matematica input {
+  width: 100%;
+  height: 40px;
+  font-size: 30px;
+}
+
+.botoes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  margin-top: 10px;
+}
+
+.botao {
+  width: 100%;
+  padding: 15px;
+  font-size: 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: 1px solid rgb(8, 8, 8);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.botao:hover {
+  box-shadow: 0 0 10px 5px rgba(52, 152, 219, 0.5);
+}

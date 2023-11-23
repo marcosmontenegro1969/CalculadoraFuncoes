@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CALCULADORA COM FUNÇÕES SOLICITADAS</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+  </head>
+<body>
+  <div class="calculadora_Matematica">
+    <input type="text" id="mostrador" readonly>
+    <div class="botoes">
+      <button class="botao" onclick="inclui('7')">7</button>
+      <button class="botao" onclick="inclui('8')">8</button>
+      <button class="botao" onclick="inclui('9')">9</button>
+      <button class="botao" onclick="operacaoMatematica('+')">+</button>
+      <button class="botao" onclick="inclui('4')">4</button>
+      <button class="botao" onclick="inclui('5')">5</button>
+      <button class="botao" onclick="inclui('6')">6</button>
+      <button class="botao" onclick="operacaoMatematica('-')">-</button>
+      <button class="botao" onclick="inclui('1')">1</button>
+      <button class="botao" onclick="inclui('2')">2</button>
+      <button class="botao" onclick="inclui('3')">3</button>
+      <button class="botao" onclick="operacaoMatematica('*')">*</button>
+      <button class="botao" onclick="inclui('0')">0</button>
+      <button class="botao" onclick="calcula()">=</button>
+      <button class="botao" onclick="clearDisplay()">C</button>
+      <button class="botao" onclick="operacaoMatematica('/')">/</button>
+    </div>
+  </div>
+  <script type="text/javascript" src="/script.js"></script>
+</body>
+</html>
+
